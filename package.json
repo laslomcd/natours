@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laslomcd/natours.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laslomcd/natours/issues"
+  },
+  "homepage": "https://github.com/laslomcd/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
