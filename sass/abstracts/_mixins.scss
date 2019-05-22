@@ -5,3 +5,10 @@
         clear: both;
     }
 }
+
+@mixin absoluteCenter($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    transform: translate(-50%, -50%);
+}
